@@ -1,0 +1,99 @@
+body { 
+	background-color: #FFFFFF;
+	background-image: url(obrazky/prstene2.png);	
+	background-position: left 60px;
+	background-repeat: repeat-x;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: rgb(48,0,95);
+	margin: 0;
+}
+header {
+	background-color: rgb(48,0,95);
+	height: 60px;
+	margin-bottom: 90px;
+	overflow: hidden;
+}
+header h1 {
+  color: rgb(205,205,205);
+  float: right;
+  margin: 5px;
+}
+nav {
+  color: rgb(205,205,205);
+	background-color: rgb(48,0,95);
+	text-align: center;
+	padding: 1%;
+}
+nav a {
+  color: rgb(205,205,205);
+  border-left: 1px solid rgb(205,205,205);  
+  border-right: 1px solid rgb(205,205,205);
+  text-decoration: none;  
+  padding: 0 0.5em;
+}
+nav a:hover {
+  color: rgb(48,0,95);
+  background-color: rgb(205,205,205);
+}
+nav img {
+  padding: 0 0.5em;
+}
+nav #kosik {
+	float: right;
+}
+nav #kosik a {
+	text-decoration: underline;
+	border: none;
+}
+section {
+	padding: 1%;
+}
+section table th, section table td {
+  border-bottom: 1px solid rgb(48,0,95);
+}
+section a {
+	color: #666;
+	font-weight: bold;
+}
+section figure {
+	margin: 0.5em;
+	padding: 5px;
+	text-align: center;
+	float:  left;
+	width: 150px;
+	border: 1px solid rgb(48,0,95);
+}
+section figure:hover {
+  background-color: rgb(205,205,205);
+}
+figure p {
+	clear: both;
+	margin: 0;
+}
+section figcaption {
+	font-weight: bold;
+	height: 40px;
+	overflow: hidden;
+}
+footer {
+	font-size: 90%; 
+	color: rgb(205,205,205);
+	background-color: rgb(48,0,95);
+	padding: 0.5em;
+	clear: both;
+}
+fieldset {
+	border: 1px solid rgb(48,0,95);
+	padding: 0.5em;
+}
+legend {
+	color: rgb(48,0,95);
+	font-weight: bold;
+	padding: 0 0.5em;
+}
+.chyba {
+	color: #FF0000;
+}
+.ok {
+	color: #0000FF;
+}
